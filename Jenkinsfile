@@ -26,7 +26,7 @@ pipeline {
             steps {
                 // Deploy the application (replace with your actual deployment command)
                 // For a simple Java application without a JAR file, this could be running your main class
-                sh 'java -cp src/main/java com.example.HelloWorld'
+                sh 'java -cp src/main/java com.example.helloworld'
             }
         }
     }
