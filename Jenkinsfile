@@ -4,8 +4,8 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                // Checkout the code from the 'main' branch
-                checkout(branch: 'main')
+                // Checkout the code from the repository
+                checkout scm
             }
         }
 
